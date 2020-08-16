@@ -1,28 +1,28 @@
 import React from 'react';
 import './App.css';
 import Game from './components/game/Game'
-import toon from 'src/images/teamToon.jpeg';
-import monster from 'src/images/teamMonster.jpeg';
-import meteorMetropolis from 'src/images/superman.jpeg';
-import southPark from 'src/images/southparkcows.png'
+import toonImage from './images/teamToon.jpeg';
+import monsterImage from 'src/images/teamMonster.jpeg';
+import meteorMetropolisImage from 'src/images/superman.jpeg';
+import southParkImage from 'src/images/southparkcows.png'
 
 
 function App(props) {
   const toon = {
       name: "toon",
-      logoSrc: 'teamToon.jpeg'
+      logoSrc: toonImage
   }
   const monster = {
       name: "monster",
-      logoSrc: 'teamMonster.jpeg'
+      logoSrc: monsterImage
   }
   const southPark = {
       name: 'southPark',
-      logoSrc: 'southparkcows.png'
+      logoSrc: southParkImage
   }
   const meteorMetropolis = {
       name: "meteorMetropolis",
-      logoSrc: 'superman.jpeg'
+      logoSrc: meteorMetropolisImage
   }
 
 

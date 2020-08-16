@@ -3,6 +3,7 @@ import Team from '../team/Team'
 
 
 function Game(props) {
+    
     return (
         <div className="Game">
             <h1>Welcome to {props.venue}</h1>
