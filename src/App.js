@@ -1,7 +1,11 @@
 import React from 'react';
 import './App.css';
 import Game from './components/game/Game'
-import teamToon from './teamToon.jpeg'
+import toon from 'src/images/teamToon.jpeg';
+import monster from 'src/images/teamMonster.jpeg';
+import meteorMetropolis from 'src/images/superman.jpeg';
+import southPark from 'src/images/southparkcows.png'
+
 
 function App(props) {
   const toon = {
