@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import Game from './components/game/Game'
 import toonImage from './images/teamToon.jpeg';
-import monsterImage from 'src/images/teamMonster.jpeg';
-import meteorMetropolisImage from 'src/images/superman.jpeg';
-import southParkImage from 'src/images/southparkcows.png'
+import monsterImage from './images/teamMonster.jpeg';
+import meteorMetropolisImage from './images/superman.jpeg';
+import southParkImage from "./images/southparkcows.png"
 
 
 function App(props) {
