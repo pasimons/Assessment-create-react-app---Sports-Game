@@ -1,5 +1,7 @@
 import React from 'react'
-
+import audio1 from "../team/sounds/Switch3.mp3"
+import audio2 from "../team/sounds/basket.mp3"
+import audio3 from "../team/sounds/hitcrowdcheer.mp3"
 
 class Team extends React.Component {
     constructor(props) {
@@ -9,8 +11,8 @@ class Team extends React.Component {
             shots: 0,
             score: 0
         }
-        this.shotSound = new Audio('Switch3.mp3')
-        this.scoreSound = new Audio('basket.mp3')
+        this.shotSound = new Audio(audio1)
+        this.scoreSound = new Audio(audio2)
 
     }
     shotHandler = () => {
