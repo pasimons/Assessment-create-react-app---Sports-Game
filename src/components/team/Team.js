@@ -1,6 +1,5 @@
 import React from 'react'
 
-import audio3 from "../team/sounds/hitcrowdcheer.mp3"
 
 function Team(props) {
     let shotPercentageDiv
